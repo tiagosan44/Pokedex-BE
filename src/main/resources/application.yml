@@ -1,0 +1,18 @@
+#Production properties
+
+#server:
+#    port: 5000
+#
+#pokedex-config:
+#    apiURL: https://pokeapi.co/api/v2
+#    localURL: http://pokedexbe-env-1.eba-8rgwcvbg.us-east-1.elasticbeanstalk.com/api
+#    pokemonPath: /pokemon
+#    characteristicPath: /characteristic
+
+#Develop properties
+
+pokedex-config:
+    apiURL: https://pokeapi.co/api/v2
+    localURL: http://localhost:8080/api
+    pokemonPath: /pokemon
+    characteristicPath: /characteristic
